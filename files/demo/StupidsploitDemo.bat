@@ -1,0 +1,1 @@
+Stupidsploit.exe FiClient.exe calc.exe

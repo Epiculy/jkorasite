@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>JKORA - Guides</title>
+		<style>
+			body {
+				font-family: monospace;
+			}
+		</style>
+	</head>
+	<body>
+		<a href="/">JKORA</a> >> <a href="#">Guides</a>
+		<br><br>
+		
+		<div>
+			<div style="font-size: 25px; font-weight: bold;">How To get Eggsploit Working On June 2012 - September 2013</div>
+			<div style="font-size: 15px;">by coke</div>
+			
+			<p style="max-width: 800px;">
+				<ol>
+					<li>Open Cheat Engine</li>
+					<li>Attach client</li>
+					<li>Search for "00 00 00 00 00 00 00 00 00 00 00 00 80 07 38 04" as a byte array</li>
+					<li>Bring result down to address list and browse memory region</li>
+					<li>Go back 8 bytes and change 0x01 to 0x00</li>
+				</ol>
+			</p>
+		</div>
+		<br>
+		<div>
+			<div style="font-size: 25px; font-weight: bold;">Unpatching RCE On Clients That Have It Badly Patched</div>
+			<div style="font-size: 15px;">by swirln</div>
+			
+			<p style="max-width: 800px;">
+				This guide shows you how to unpatch one of the many methods of RCE on clients that have it badly patched. This guide is pretty useless because if your peers don't have RCE unpatched then you can't do anything.
+				<ol>
+					<li>Open up the client in a debugger</li>
+					<li>Search for "ioEnabled" in the current module</li>
+					<li>If it's badly patched there should be a "ret" and a "nop" a few lines up.</li>
+					<li>Change the "ret" to "push 0x4"</li>
+					<li>Patch the client and you're done!</li>
+				</ol>
+			</p>
+		</div>
