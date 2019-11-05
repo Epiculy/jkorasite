@@ -28,14 +28,14 @@
 			</pre>
 			<p>404 Not Found</p>
 			<p>The requested resource could not be found but may be available in the future.</p>
-			<noscript>If you came here from a link with <b>/jkorawebsite</b> in it then try removing <b>/jkorawebsite</b> from the link to get to your destination.</noscript>
+			<noscript>If you came here from a link with <b>/jkorawebsite</b> in it then try removing <b>/jkorawebsite</b> from the link to get to your destination.<br></noscript>
 			<a href="/"><button>Home</button></a>
 		</div>
 		<script>
 			const path = location.pathname.split("/")
 			
 			if (path === "jkorawebsite") {
-				location = location.href.replace(path, "")
+				location.assign(location.href.replace(path, ""))
 			}
 		</script>
 	</body>
