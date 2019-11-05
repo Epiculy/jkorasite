@@ -13,7 +13,7 @@
 		<a href="/">JKORA</a>
 		<br><br>
 		<div style="text-align: center;">
-			<pre>
+			<pre contenteditable>
   888888 888    d8P   .d88888b.  8888888b.         d8888 
     "88b 888   d8P   d88P" "Y88b 888   Y88b       d88888 
      888 888  d8P    888     888 888    888      d88P888 
@@ -28,6 +28,12 @@
 			</pre>
 			<p>404 Not Found</p>
 			<p>The requested resource could not be found but may be available in the future.</p>
+			<a href="/"><button>Home</button></a>
 		</div>
+		<script>
+			if (location.pathname.split("/")[1] === "jkorawebsite") {
+				location = location.replace("/jkorawebsite", "")
+			}
+		</script>
 	</body>
 </html>
