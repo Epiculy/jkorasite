@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/jkora
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://jkorawebsite.github.io
+  * I am jkora (https://keybase.io/jkora) on keybase.
+  * I have a public key ASCiXCayDaYH2PECb_CW9OKWeOJFjlZS3VAvzf-vOWBIXAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120a25c26b20da607d8f1026ff096f4e29678e2458e5652dd502fcdffaf3960485c0a",
+      "host": "keybase.io",
+      "kid": "0120a25c26b20da607d8f1026ff096f4e29678e2458e5652dd502fcdffaf3960485c0a",
+      "uid": "047cc0ae5bc119d967dba4786856ae19",
+      "username": "jkora"
+    },
+    "merkle_root": {
+      "ctime": 1573066094,
+      "hash": "8b2992447646e917002aa3fe6810f415be2bd066998b99e04893c4aa38b87619978e67682eb0d8050bee9a7b90e0c233ae1c2f4372b4a487085219f2fcd6e962",
+      "hash_meta": "1e915c7a54069cadf856dccd1a00c9d57199c5997b609a48d098fd65d5ba98fe",
+      "seqno": 8843908
+    },
+    "service": {
+      "entropy": "JNbSbzgPh1FQefelP09VgP4c",
+      "hostname": "jkorawebsite.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.5.0"
+  },
+  "ctime": 1573066104,
+  "expire_in": 504576000,
+  "prev": "77f7347e1e334df4c030092e136ecbb5ed9017a1e4663d353cd3f7a0e1b41f37",
+  "seqno": 20,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgolwmsg2mB9jxAm/wlvTilnjiRY5WUt1QL83/rzlgSFwKp3BheWxvYWTESpcCFMQgd/c0fh4zTfTAMAkuE27Lte2QF6HkZj01PNP3oOG0HzfEIBaJGkCGilZirFcgSRCuWLXzgPgfnS0f0P4w8UzM4/R4AgHCo3NpZ8RAqK3F/fGDisb+uIS0svXcruphlz9U9r7lK9u5ilo6w2r3lBkMRlJKVLrfpvV9bbkGJ0U5RPZhJl1PcxThYYrdAahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIBVCrlbPNRsFVP/mzHRAc14vDDWJcj9xYwjuzJf6UaQro3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jkora
+
+==================================================================
